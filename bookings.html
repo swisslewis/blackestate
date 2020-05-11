@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookings</title>
+    <script src="https://kit.fontawesome.com/4eb8aefcc7.js"></script>
+    <link rel="stylesheet" href="./dist/css/app.min.css">
+    <link
+        href="https://fonts.googleapis.com/css?family=Domine:400,700|Open+Sans:400,600|Playfair+Display:400,600,700&display=swap"
+        rel="stylesheet">
+    <script type="module" src="js/bookings.js"></script>
+</head>
+
+<body>
+    <div class="app">
+        <!-- NAVBAR -->
+        <header class="header">
+            <!-- <nav class="navigation"> -->
+            <a href="index.html"><img src="images/estateblacklogo-clearcut.png" alt="blackestate" class="logo"></a>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="bookings.html">BOOK ACCOMMODATION</a></li>
+                    <li><a href="reservations.html">BOOK A TABLE</a></li>
+                    <li>WINE STORE</li>
+                    <li>THE CLUB</li>
+                </ul>
+            </div>
+            <div class="social-media-icons">
+                <ul>
+                    <li><a href="https://www.google.com/maps/place/Black+Estate+Wines/@-43.0341131,172.807248,17z/data=!3m1!4b1!4m13!1m7!3m6!1s0x6d31aea570db32f9:0x77719de30919a2e1!2sBlack+Estate+Wines!8m2!3d-43.034117!4d172.809442!10e1!3m4!1s0x6d31aea570db32f9:0x77719de30919a2e1!8m2!3d-43.034117!4d172.809442"
+                            target="_blank"><i class="fas fa-map-marker-alt fa-2x"></i></a></li>
+                    <li><a href="https://www.instagram.com/blackestate/" target="_blank"><i
+                                class="fab fa-instagram fa-2x"></i></a></li>
+                    <li><a href="https://www.facebook.com/blackestatewines/" target="_blank"><i
+                                class="fab fa-facebook fa-2x"></i></a></li>
+                </ul>
+        </header>
+
+        <!-- CONTENT -->
+
+        <section class="main">
+            <div class="main-form">
+                <h2>BOOK A ROOM</h2>
+                <form>
+                    <p>How many guests?</p>
+                    <input type="text">
+                    <p>Date</p>
+                    <input type="text">
+                    <p>Contact number</p>
+                    <input type="text">
+                    <p>Email Address</p>
+                    <input type="text">
+                    <p>Where would you like to stay?</p>
+                    <select class="options" name="options">
+                        <option value="Black Estate B&B">Black Estate B&B</option>
+                        <option value="Kumiko Lodge">Kumiko Lodge</option>
+                    </select>
+                    <!-- MODAL BUTTON -->
+                    <button id="modal-button" class="button-inverse">Book now</button>
+                </form>
+                <p>Cancellation policy: 24 hours notice required
+                    <p />
+            </div>
+            <!-- MODAL BUTTON -->
+            <div class="modal-bg">
+                <div class="modal-dialog">
+                    <h4>Room Booked</h4>
+                    <p>Thank you. A confirmation email has been sent to your email address</p>
+                    <button class="button" onclick="window.location.href='index.html'">Home</button>
+                    <span class="modal-close">X</span>
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <div class="text-box-1">
+                <p>Black Estate Holdings Limited<br>
+                    License 57/OFF/333/2018 expiry 09/11/2020<br>
+                    <strong>A copy of our license can be viewed here.</strong><br>
+                    Biogro No: 5202<br>
+                </p>
+            </div>
+            <div class="line"></div>
+            <div class="text-box-2">
+                <p>Developed by CL Design<br>
+                    <strong>design.chrislewis@gmail.com</strong></p>
+            </div>
+        </section>
+        <!-- CONTENT END -->
+    </div>
+</body>
+
+</html>

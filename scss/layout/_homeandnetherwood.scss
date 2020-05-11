@@ -1,0 +1,29 @@
+.homevineyardimage {
+    position: relative;
+}
+
+.netherwood-vineyard-image {
+    position: relative;
+}
+
+.homeandnetherwood {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: rgb(43, 43, 43);
+    background: $background-dark;
+
+    p {
+        text-align: center;
+        color: white;
+        line-height: 30px;
+    }
+
+    h2 {
+        color: rgb(231, 231, 231);
+    }
+
+    .line {
+        width: 24rem;
+        border-bottom: 1.8px solid rgb(255, 255, 255);
+    }
+}

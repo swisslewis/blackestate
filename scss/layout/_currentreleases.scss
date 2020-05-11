@@ -1,0 +1,92 @@
+.current-releases {
+    background: rgb(43, 43, 43);
+    background: linear-gradient(180deg, rgba(43, 43, 43, 1) 0%, rgba(33, 33, 33, 1) 65%, rgba(20, 20, 20, 1) 100%);
+
+    p {
+        color: white;
+    }
+
+    h2 {
+        color: white;
+    }
+
+    h4 {
+        color: white;
+    }
+
+    h5 {
+        color: white;
+    }
+
+    .centertext {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 100px 0px 100px 0px;
+    
+        p {
+            color: white;
+            padding-top: 50px;
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-style: normal;
+            line-height: 30px;
+            width: 50%;
+        }
+    
+        .line {
+            width: 500px;
+            height: 30px;
+            border-bottom: 1.8px solid rgb(255, 255, 255);
+        }
+    }
+
+    .bottom {
+        padding-top: 70px;
+        color: green;
+
+        h5 {
+            font-size: 25px;
+        }
+        h6 {
+            padding-top: 20px;
+            font-size: 30px;
+        }
+
+        a {
+            color: white;
+            text-decoration: underline;
+        }
+
+        a:hover {
+            color: rgb(3, 173, 3);
+        }
+
+    }
+    
+}
+
+.left-column-wines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+    padding-top: 20px;
+    padding-bottom: 60px;
+    width: 65%;
+    }
+
+}
+
+.right-column-wines {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: 3px dashed rgb(255, 255, 255);
+    
+    p {
+        padding-top: 20px;
+        padding-bottom: 60px;
+        width: 65%;
+        }
+}

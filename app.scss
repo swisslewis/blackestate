@@ -1,0 +1,32 @@
+.app {
+    overflow-x: hidden;
+}
+
+// SCSS VARIABLES
+
+$background-dark: linear-gradient(180deg, rgba(43, 43, 43, 1) 0%, rgba(33, 33, 33, 1) 65%, rgba(20, 20, 20, 1) 100%);
+$background-light:  rgb(247, 247, 247);
+$heading-font: 'Playfair Display', serif;
+$sub-heading-font: 'Domine', serif;
+$paragraph-font: 'Playfair Display', serif;
+$button-font: 'Open Sans', sans-serif;
+
+@import "./scss/abstracts/mixins";
+@import "./node_modules/bootstrap/scss/bootstrap.scss";
+@import "./scss/layout/master";
+@import "./scss/base/typography";
+@import "./scss/components/buttons";
+@import "./scss/layout/nav";
+@import "./scss/layout/landing";
+@import "./scss/layout/vineyards";
+@import "./scss/layout/homeandnetherwood";
+@import "./scss/layout/damsteep";
+@import "./scss/base/reset";
+@import "./scss/layout/restaurantmain";
+@import "./scss/layout/currentreleases";
+@import "./scss/layout/footer";
+@import "./scss/pages/bookings";
+@import "./scss/pages/reservations"; 
+@import "./scss/layout/accommodation";
+@import "./scss/layout/kumiko";
+@import "./scss/layout/bnb";

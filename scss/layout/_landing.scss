@@ -1,0 +1,98 @@
+.landing {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-size: cover;
+    background: $background-dark;
+    height: 100%;
+}
+
+.collage {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    margin: 11rem 0 0.3rem;
+    padding: 15px;
+    opacity: 30px;
+
+    img {
+        margin: 0.5rem;
+    }
+
+}
+
+.wrapper {
+    position: relative;
+}
+
+.winery-image {
+    opacity: 1;
+    display: block;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+}
+
+.middle {
+    width: 100%;
+    height: 100%;
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.wrapper:hover .winery-image {
+    cursor: pointer;
+    opacity: 0.3;
+}
+
+.wrapper:hover .middle {
+    cursor: pointer;
+    opacity: 1;
+}
+
+.image-text {
+    color: white;
+    font-size: 1rem;
+    padding: 1rem 2rem; 
+    width: 100%;
+    height: 100%;
+    padding-top: 8.5rem;
+}
+
+// .winery-image:hover {
+//     background-color: rgba(0, 0, 0, 0.5);
+// }
+
+.ourstory {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    margin: 20px 0px 75px;
+
+    h1 {
+        color: rgb(223, 223, 223);
+        margin: 5px 0px 20px 0px;
+    }
+
+    p {
+        padding-top: 30px;
+        text-align: center;
+        font-style: normal;
+        color: rgb(238, 238, 238);
+        margin: 0px 40px;
+    }
+
+    .line {
+        width: 600px;
+        height: 20px;
+        border-bottom: 1.8px solid rgb(238, 238, 238);
+    }
+}

@@ -1,0 +1,109 @@
+.headroom {
+    will-change: transform;
+    transition: transform 200ms linear;
+}
+.headroom--pinned {
+    transform: translateY(0%);
+}
+.headroom--unpinned {
+    transform: translateY(-100%);
+}
+
+.header {
+
+    position: fixed;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 10;
+    padding: 0px;
+    width: 100%;
+    background-image: url(../../images/grapes.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 0px;
+
+    .logo {
+        margin: 1.5rem;
+        height: 3rem;
+        // object-fit: contain;
+    }
+
+    .nav-links {
+        display: flex;
+        justify-content: center;
+        background-color: rgb(230, 230, 230);
+        padding: 0.5rem 0;
+
+        ul {
+            display: flex;
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+
+            li {
+                margin: 0px 1.5rem;
+                color: rgb(2, 54, 7);
+                font-family: 'Open Sans', serif;
+                font-weight: 600;
+                font-size: 1rem;
+                cursor: pointer;
+            }
+
+            li:hover {
+                color: rgb(0, 161, 0);
+                cursor: pointer;
+            }
+
+            a {
+                color: rgb(2, 54, 7);
+            }
+
+            a:hover {
+                color: rgb(0, 161, 0);
+            }
+        }
+
+    }
+
+    .active {
+        display: none;
+    }
+
+    .social-media-icons {
+
+        ul {
+            display: flex;
+            text-align: center;
+            position: absolute;
+            left: 87%;
+            top: 38%;
+            margin: 0;
+            padding: 0;
+        }
+
+        li {
+            padding: 0 1rem;
+            list-style-type: none;
+        }
+
+        a {
+            color: rgb(37, 37, 37);
+        }
+
+        a:hover {
+            color: rgb(19, 146, 30);
+        }
+    }
+}
+
+@include tablet {
+    width: 50%;
+}
+
+
+.mobile-menu {
+    display: none;
+    grid-template-rows: 60
+}

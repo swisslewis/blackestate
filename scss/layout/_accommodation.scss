@@ -1,0 +1,17 @@
+.bnb {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-color: $background-light;
+
+    .line {
+        width: 400px;
+        border-bottom: 1.8px solid rgb(22, 22, 22);
+    }
+}
+
+.kumiko {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background: $background-dark;
+
+}

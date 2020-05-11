@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "../components/thumbnails.scss"
+    ],
+    "names": [],
+    "file": "thumbnails.css"
+}

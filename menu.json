@@ -1,0 +1,39 @@
+{
+    "menu": [
+        {
+            "name": "Damsteep Riesling 2018",
+            "price": "$30.00",
+            "description": "Dry, with aromas of lime, orange blossom, mandarin and wild honey. The palate is dense and textural with salivating white rock minerals. Full, dense and invigorating."
+        },
+        {
+            "name": "Home Chardonnay 2018",
+            "price": "$45.00",
+            "description": "A rich, pure and integrated expression from our Home Vineyard, Grapefruit, hazelnut, orange blossom, nectarine and sea spray on the nose, with a dense core of concentrated fruit on the palate, tapering to a a salty mineral and long finish."
+        },
+        {
+            "name": "Treble Rose 2018",
+            "price": "$31.00",
+            "description": "A co-ferment of fruit from our 3 vineyards. Wild strawberry compote, rhubarb, sandstone and cinnamon on the nose. The pallet is bright, juicy and long with salivating tamarillo, red currant jelly, vine cuttings, liquorice, and spring water."
+        },
+        {
+            "name": "Treble Rose 2018",
+            "price": "$31.00",
+            "description": "A co-ferment of fruit from our 3 vineyards. Wild strawberry compote, rhubarb, sandstone and cinnamon on the nose. The pallet is bright, juicy and long with salivating tamarillo, red currant jelly, vine cuttings, liquorice, and spring water."
+        },
+        {
+            "name": "Damsteep Pinor Noir 2016",
+            "price": "$45.00",
+            "description": "Spicy, deep silky fruit on the nose. Savoury chalky tannins which are firm and harmonious with the mineral tension of the wine. Limestone. Deep raspberry compote, sandalwood and sichuan pepper. Drink now to 2025."
+        },
+        {
+            "name": "Netherwood Pinot Noir 2018",
+            "price": "$65.00",
+            "description": "Vibrant red cherry, damson jam, sandalwood aromas with hints of fertile earth. Lush and silken red fruit, with structured mid palate tannin from fruit. Fruit, dense complex tannin and gentle but bright minerality. Drink now to 2026. "
+        },
+        {
+            "name": "Home Young Vines Chardonnay 2018",
+            "price": "$39.00",
+            "description": "Eight your old vines from our original Home block. Fresh and flinty aromas of pink grapefruit, flint, and nectarine. Bright flavours with white peach, hazelnut, salivating saline characters. Unfiltered & unfined wine with small amounts of sediment."
+        }
+    ]
+}

@@ -1,0 +1,36 @@
+.restaurantmain {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(247, 247, 247);
+    padding: 100px 150px 100px 150px;
+
+    p {
+        text-align: center;
+        font-family: 'Playfair Display', serif;
+        font-size: 20px;
+        padding-top: 0;
+        margin-bottom: 2rem;
+    }
+
+    a {
+        color: rgb(1, 58, 1);
+        text-decoration: underline;
+        
+    }
+
+    a:hover {
+        color: rgb(0, 161, 0);
+    }
+
+    .button {
+        height: 2.5rem;
+        width: 12rem;
+    }
+    .button-inverse {
+        height: 2.5rem;
+        margin-top: 1rem;
+        width: 12rem;
+    }
+}
