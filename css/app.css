@@ -9970,12 +9970,14 @@ p {
   cursor: pointer;
 }
 
-.homevineyardimage {
+.homevineyard-image {
   position: relative;
+  width: 35rem;
 }
 
 .netherwood-vineyard-image {
   position: relative;
+  width: 35rem;
 }
 
 .homeandnetherwood {
@@ -10021,6 +10023,10 @@ p {
 .damsteep .line {
   width: 400px;
   border-bottom: 1.8px solid #161616;
+}
+
+.damsteep-image {
+  width: 35rem;
 }
 
 /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */
@@ -10659,5 +10665,9 @@ template {
 
 .bnb .button {
   margin-top: 2rem;
+}
+
+.stay-bnb {
+  width: 30rem;
 }
 /*# sourceMappingURL=app.css.map */
