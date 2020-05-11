@@ -9864,7 +9864,7 @@ p {
 .winery-image {
   opacity: 1;
   display: block;
-  height: auto;
+  width: 25rem;
   transition: .5s ease;
   backface-visibility: hidden;
 }
