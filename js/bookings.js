@@ -9,7 +9,7 @@ function modalDisplay() {
     })
 
     modalClose.addEventListener('click', function(){
-        modalBg.classList.remove('bg-active')
+        modalBg.classList.remove('modal-active')
     })
 }
 
