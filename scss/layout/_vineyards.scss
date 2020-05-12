@@ -4,6 +4,15 @@
     align-items: center;
     padding: 60px 0px;
     background-color: $background-light;
+
+    .heading-box {
+        @include tablet {
+            h1 {
+                font-size: 1.5rem;
+                width: 30rem;
+            }
+        }
+    }
 }
 
 .heading-box {
@@ -19,13 +28,18 @@
         font-weight: bold;
         font-style: italic;
         color: rgb(56, 56, 56);
-        font-size: 40px;
+        font-size: 2rem;
         margin: 10px;
     }
 }
 .vineyard-images {
     display: flex;
     justify-content: center;
+
+    @include tablet {
+        display: grid;
+        grid-template-columns: 25rem;
+    }
     img {
         margin: 30px 10px;
         width: 30rem;
@@ -34,5 +48,11 @@
     img:hover {
         opacity: 0.5; 
         cursor: pointer;   
+    }
+
+    @include tablet {
+        img {
+            width: 20rem;
+        }
     }
 }

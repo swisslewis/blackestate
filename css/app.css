@@ -9769,6 +9769,12 @@ p {
   padding: 0.5rem 0;
 }
 
+@media (max-width: 1024px) {
+  .header .nav-links {
+    display: none;
+  }
+}
+
 .header .nav-links ul {
   display: flex;
   list-style-type: none;
@@ -9800,6 +9806,12 @@ p {
 
 .header .active {
   display: none;
+}
+
+@media (max-width: 1024px) {
+  .header .social-media-icons {
+    display: none;
+  }
 }
 
 .header .social-media-icons ul {
@@ -9853,8 +9865,33 @@ p {
   opacity: 30px;
 }
 
+@media (max-width: 1024px) {
+  .collage {
+    margin: 0 0 0.3rem;
+    padding-top: 0.5rem;
+  }
+}
+
 .collage img {
   margin: 0.5rem;
+}
+
+.nav-buttons {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .nav-buttons {
+    display: grid;
+    grid-template-columns: 10rem 10rem;
+    justify-items: center;
+    align-items: center;
+    margin-top: 8rem;
+    margin-bottom: 0;
+  }
+  .nav-buttons .button-inverse {
+    margin-bottom: 1rem;
+  }
 }
 
 .wrapper {
@@ -9867,6 +9904,12 @@ p {
   width: 25rem;
   transition: .5s ease;
   backface-visibility: hidden;
+}
+
+@media (max-width: 1024px) {
+  .winery-image {
+    width: 15rem;
+  }
 }
 
 .middle {
@@ -9901,6 +9944,12 @@ p {
   padding-top: 8.5rem;
 }
 
+@media (max-width: 1024px) {
+  .image-text {
+    padding-top: 4.5rem;
+  }
+}
+
 .ourstory {
   display: flex;
   flex-direction: column;
@@ -9914,12 +9963,28 @@ p {
   margin: 5px 0px 20px 0px;
 }
 
+@media (max-width: 1024px) {
+  .ourstory h1 {
+    font-size: 1.5rem;
+    width: 20rem;
+  }
+  .ourstory .line {
+    width: 24rem !important;
+  }
+}
+
 .ourstory p {
   padding-top: 30px;
   text-align: center;
   font-style: normal;
   color: #eeeeee;
-  margin: 0px 40px;
+  margin: 0 1rem;
+}
+
+@media (max-width: 1024px) {
+  .ourstory p {
+    width: 35rem;
+  }
 }
 
 .ourstory .line {
@@ -9936,6 +10001,13 @@ p {
   background-color: #f7f7f7;
 }
 
+@media (max-width: 1024px) {
+  .vineyards .heading-box h1 {
+    font-size: 1.5rem;
+    width: 30rem;
+  }
+}
+
 .heading-box {
   display: flex;
   justify-content: center;
@@ -9950,13 +10022,20 @@ p {
   font-weight: bold;
   font-style: italic;
   color: #383838;
-  font-size: 40px;
+  font-size: 2rem;
   margin: 10px;
 }
 
 .vineyard-images {
   display: flex;
   justify-content: center;
+}
+
+@media (max-width: 1024px) {
+  .vineyard-images {
+    display: grid;
+    grid-template-columns: 25rem;
+  }
 }
 
 .vineyard-images img {
@@ -9970,9 +10049,21 @@ p {
   cursor: pointer;
 }
 
+@media (max-width: 1024px) {
+  .vineyard-images img {
+    width: 20rem;
+  }
+}
+
 .homevineyard-image {
   position: relative;
   width: 35rem;
+}
+
+@media (max-width: 1024px) {
+  .homevineyard-image {
+    width: 25rem;
+  }
 }
 
 .netherwood-vineyard-image {
@@ -9980,11 +10071,40 @@ p {
   width: 35rem;
 }
 
+@media (max-width: 1024px) {
+  .netherwood-vineyard-image {
+    width: 25rem;
+  }
+}
+
 .homeandnetherwood {
   display: grid;
   grid-template-columns: 50% 50%;
   background: #2b2b2b;
   background: linear-gradient(180deg, #2b2b2b 0%, #212121 65%, #141414 100%);
+}
+
+@media (max-width: 1024px) {
+  .homeandnetherwood {
+    display: block;
+  }
+  .homeandnetherwood .left {
+    margin: 0;
+  }
+  .homeandnetherwood .right {
+    margin: 0;
+  }
+  .homeandnetherwood h2 {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+  .homeandnetherwood p {
+    width: 40rem;
+  }
+  .homeandnetherwood img {
+    margin: 3rem 0 3rem;
+    border: 1px solid #b4b4b4;
+  }
 }
 
 .homeandnetherwood p {
@@ -10003,9 +10123,22 @@ p {
 }
 
 .damsteep {
+  background-color: #f7f7f7;
+}
+
+@media (max-width: 1024px) {
+  .damsteep {
+    display: block;
+  }
+}
+
+.damsteep .desktop-view {
   display: grid;
   grid-template-columns: 50% 50%;
-  background-color: #f7f7f7;
+}
+
+.damsteep .tablet-view {
+  display: none;
 }
 
 .damsteep .hometext {
@@ -10023,6 +10156,34 @@ p {
 .damsteep .line {
   width: 400px;
   border-bottom: 1.8px solid #161616;
+}
+
+@media (max-width: 1024px) {
+  .damsteep .desktop-view {
+    display: none;
+  }
+  .damsteep .tablet-view {
+    display: block;
+  }
+  .damsteep .tablet-view .left {
+    margin: 0;
+  }
+  .damsteep .tablet-view .right {
+    margin: 0;
+  }
+  .damsteep .tablet-view h2 {
+    margin-top: 5rem;
+    font-size: 2rem;
+  }
+  .damsteep .tablet-view p {
+    width: 40rem;
+    margin-bottom: 3rem;
+  }
+  .damsteep .tablet-view img {
+    margin: 0 0 3rem;
+    border: 1px solid #b4b4b4;
+    width: 25rem;
+  }
 }
 
 .damsteep-image {
@@ -10409,6 +10570,15 @@ template {
   width: 12rem;
 }
 
+@media (max-width: 1024px) {
+  .restaurantmain h2 {
+    font-size: 2rem;
+  }
+  .restaurantmain p {
+    font-size: 1rem;
+  }
+}
+
 .current-releases {
   background: #2b2b2b;
   background: linear-gradient(180deg, #2b2b2b 0%, #212121 65%, #141414 100%);
@@ -10420,6 +10590,12 @@ template {
 
 .current-releases h2 {
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .current-releases h2 {
+    font-size: 2rem;
+  }
 }
 
 .current-releases h4 {
@@ -10434,7 +10610,7 @@ template {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 0px 100px 0px;
+  padding: 3rem 0 5rem 0;
 }
 
 .current-releases .centertext p {
@@ -10448,14 +10624,30 @@ template {
 }
 
 .current-releases .centertext .line {
-  width: 500px;
+  width: 20rem;
   height: 30px;
   border-bottom: 1.8px solid white;
 }
 
+@media (max-width: 1024px) {
+  .current-releases .centertext .line {
+    width: 15rem;
+  }
+}
+
+.current-releases .centertext .button-inverse {
+  margin-top: 1rem;
+}
+
 .current-releases .bottom {
-  padding-top: 70px;
+  padding: 3rem 0 3rem;
   color: green;
+}
+
+@media (max-width: 1024px) {
+  .current-releases .bottom {
+    padding: 0 0 3rem;
+  }
 }
 
 .current-releases .bottom h5 {
@@ -10493,6 +10685,12 @@ template {
   flex-direction: column;
   align-items: center;
   border-left: 3px dashed white;
+}
+
+@media (max-width: 1024px) {
+  .right-column-wines {
+    border-left: none;
+  }
 }
 
 .right-column-wines p {
@@ -10646,8 +10844,21 @@ template {
   background: linear-gradient(180deg, #2b2b2b 0%, #212121 65%, #141414 100%);
 }
 
+@media (max-width: 1024px) {
+  .kumiko {
+    display: block;
+  }
+}
+
 .kumiko h2 {
   color: white;
+}
+
+@media (max-width: 1024px) {
+  .kumiko h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+  }
 }
 
 .kumiko .line {
@@ -10663,11 +10874,70 @@ template {
   margin-top: 2rem;
 }
 
+@media (max-width: 1024px) {
+  .kumiko .left {
+    margin: 0;
+  }
+  .kumiko .right {
+    margin: 0;
+  }
+  .kumiko img {
+    margin: 2rem 0 3rem;
+  }
+  .kumiko p {
+    width: 40rem;
+  }
+}
+
+.bnb {
+  display: block;
+}
+
+.bnb .desktop-view {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
 .bnb .button {
   margin-top: 2rem;
 }
 
+.bnb .tablet-view {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .bnb .desktop-view {
+    display: none;
+  }
+  .bnb .tablet-view {
+    display: block;
+  }
+  .bnb .left {
+    margin: 0;
+  }
+  .bnb .right {
+    margin: 0;
+  }
+  .bnb h2 {
+    font-size: 2rem;
+    margin-top: 5rem;
+  }
+  .bnb img {
+    margin: 2rem 0 3rem 0;
+  }
+  .bnb p {
+    width: 40rem;
+  }
+}
+
 .stay-bnb {
   width: 30rem;
+}
+
+@media (max-width: 1024px) {
+  .stay-bnb {
+    width: 25rem;
+  }
 }
 /*# sourceMappingURL=app.css.map */

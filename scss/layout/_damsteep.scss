@@ -1,7 +1,17 @@
 .damsteep {
-    display: grid;
-    grid-template-columns: 50% 50%;
     background-color: $background-light;
+    @include tablet {
+        display: block;
+    }
+
+    .desktop-view {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
+
+    .tablet-view {
+        display: none;
+    }
 
     .hometext {
         display: flex;
@@ -18,6 +28,41 @@
     .line {
         width: 400px;
         border-bottom: 1.8px solid rgb(22, 22, 22);
+    }
+
+    @include tablet {
+
+        .desktop-view {
+            display: none;
+        }
+
+        .tablet-view {
+            display: block;
+
+            .left {
+                margin: 0;
+            }
+
+            .right {
+                margin: 0;
+            }
+
+            h2 {
+                margin-top: 5rem;
+                font-size: 2rem;
+            }
+
+            p {
+                width: 40rem;
+                margin-bottom: 3rem;
+            }
+
+            img {
+                margin: 0 0 3rem;
+                border: 1px solid rgb(180, 180, 180);
+                width: 25rem;
+            }
+        }
     }
 }
 

@@ -1,9 +1,50 @@
 .bnb {
+    display: block;
+    .desktop-view {
+        display: grid;
+        grid-template-columns: 50% 50%;
+    }
     .button {
         margin-top: 2rem;
+    }
+    .tablet-view {
+        display: none;
+    }
+
+    @include tablet {
+        .desktop-view {
+            display: none;
+        }
+        .tablet-view {
+            display: block;
+        }
+
+        .left {
+            margin: 0;
+        }
+
+        .right {
+            margin: 0;
+        }
+
+        h2 {
+            font-size: 2rem;
+            margin-top: 5rem;
+        }
+
+        img {
+            margin: 2rem 0 3rem 0;
+        }
+
+        p {
+            width: 40rem;
+        }
     }
 }
 
 .stay-bnb {
-    width: 30rem
+    width: 30rem;
+    @include tablet {
+        width: 25rem;
+    }
 }

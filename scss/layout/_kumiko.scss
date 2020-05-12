@@ -1,6 +1,13 @@
 .kumiko {
+    @include tablet {
+        display: block;
+    }
     h2 {
-        color: white
+        color: white;
+        @include tablet {
+            margin-top: 3rem;
+            font-size: 2rem;
+        }
     }
     .line {
         width: 25rem;
@@ -12,5 +19,20 @@
 
     .button-inverse {
         margin-top: 2rem;
+    }
+
+    @include tablet {
+        .left {
+            margin: 0;
+        }
+        .right {
+            margin: 0;
+        }
+        img {
+            margin: 2rem 0 3rem;
+        }
+        p {
+            width: 40rem;
+        }
     }
 }

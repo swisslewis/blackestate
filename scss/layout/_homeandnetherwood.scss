@@ -1,11 +1,17 @@
 .homevineyard-image {
     position: relative;
     width: 35rem;
+    @include tablet {
+        width: 25rem;
+    }
 }
 
 .netherwood-vineyard-image {
     position: relative;
     width: 35rem;
+    @include tablet {
+        width: 25rem;
+    }
 }
 
 .homeandnetherwood {
@@ -13,6 +19,28 @@
     grid-template-columns: 50% 50%;
     background: rgb(43, 43, 43);
     background: $background-dark;
+
+    @include tablet {
+        display: block;
+
+        .left {
+            margin: 0;
+        }
+        .right {
+            margin: 0;
+        }
+        h2 {
+            margin-top: 5rem;
+            font-size: 2rem;
+        }
+        p {
+            width: 40rem;
+        }
+        img {
+            margin: 3rem 0 3rem;
+            border: 1px solid rgb(180, 180, 180);
+        }
+    }
 
     p {
         text-align: center;

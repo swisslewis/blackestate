@@ -16,10 +16,32 @@
     padding: 15px;
     opacity: 30px;
 
+    @include tablet {
+        margin: 0 0 0.3rem;
+        padding-top: 0.5rem;
+    }
+
     img {
         margin: 0.5rem;
     }
 
+}
+
+.nav-buttons {
+    display: none;
+
+    @include tablet {
+        display: grid;
+        grid-template-columns: 10rem 10rem;
+        justify-items: center;
+        align-items: center;
+        margin-top: 8rem;
+        margin-bottom: 0;
+
+        .button-inverse {
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 .wrapper {
@@ -32,6 +54,12 @@
     width: 25rem;
     transition: .5s ease;
     backface-visibility: hidden;
+}
+
+@include tablet {
+    .winery-image {
+        width: 15rem;
+    }
 }
 
 .middle {
@@ -66,6 +94,12 @@
     padding-top: 8.5rem;
 }
 
+@include tablet {
+    .image-text {
+        padding-top: 4.5rem;
+    }
+}
+
 // .winery-image:hover {
 //     background-color: rgba(0, 0, 0, 0.5);
 // }
@@ -82,12 +116,27 @@
         margin: 5px 0px 20px 0px;
     }
 
+    @include tablet {
+        h1 {
+            font-size: 1.5rem;
+            width: 20rem;
+        }
+
+        .line {
+            width: 24rem !important;
+        }
+    }
+
     p {
         padding-top: 30px;
         text-align: center;
         font-style: normal;
         color: rgb(238, 238, 238);
-        margin: 0px 40px;
+        margin: 0 1rem;
+
+        @include tablet {
+            width: 35rem;
+        }
     }
 
     .line {
