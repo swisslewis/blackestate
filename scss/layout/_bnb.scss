@@ -38,6 +38,9 @@
 
         p {
             width: 40rem;
+            @include tablet-small {
+                width: 28rem;
+            }
         }
     }
 }

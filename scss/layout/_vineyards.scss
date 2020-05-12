@@ -38,6 +38,7 @@
 
     @include tablet {
         display: grid;
+        justify-items: center;
         grid-template-columns: 25rem;
     }
     img {

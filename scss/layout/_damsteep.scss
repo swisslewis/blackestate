@@ -1,5 +1,6 @@
 .damsteep {
     background-color: $background-light;
+
     @include tablet {
         display: block;
     }
@@ -55,6 +56,9 @@
             p {
                 width: 40rem;
                 margin-bottom: 3rem;
+                @include tablet-small {
+                    width: 28rem;
+            }
             }
 
             img {

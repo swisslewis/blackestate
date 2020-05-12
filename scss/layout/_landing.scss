@@ -31,16 +31,19 @@
     display: none;
 
     @include tablet {
+        display: flex;
+        align-items: center;
+        margin: 8rem 1rem 0 1rem;
+
+        .button-inverse {
+            margin: 0 1rem 1rem;
+        }
+    }
+
+    @include tablet-small {
         display: grid;
         grid-template-columns: 10rem 10rem;
         justify-items: center;
-        align-items: center;
-        margin-top: 8rem;
-        margin-bottom: 0;
-
-        .button-inverse {
-            margin-bottom: 1rem;
-        }
     }
 }
 
@@ -100,10 +103,6 @@
     }
 }
 
-// .winery-image:hover {
-//     background-color: rgba(0, 0, 0, 0.5);
-// }
-
 .ourstory {
     display: flex;
     flex-direction: column;
@@ -136,6 +135,10 @@
 
         @include tablet {
             width: 35rem;
+        }
+
+        @include tablet-small {
+            width: 28rem;
         }
     }
 

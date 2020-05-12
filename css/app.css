@@ -9769,7 +9769,7 @@ p {
   padding: 0.5rem 0;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .header .nav-links {
     display: none;
   }
@@ -9808,7 +9808,7 @@ p {
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .header .social-media-icons {
     display: none;
   }
@@ -9837,7 +9837,7 @@ p {
   color: #13921e;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   width: 50%;
 }
 
@@ -9865,7 +9865,7 @@ p {
   opacity: 30px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .collage {
     margin: 0 0 0.3rem;
     padding-top: 0.5rem;
@@ -9880,17 +9880,22 @@ p {
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
+  .nav-buttons {
+    display: flex;
+    align-items: center;
+    margin: 8rem 1rem 0 1rem;
+  }
+  .nav-buttons .button-inverse {
+    margin: 0 1rem 1rem;
+  }
+}
+
+@media (max-width: 650px) {
   .nav-buttons {
     display: grid;
     grid-template-columns: 10rem 10rem;
     justify-items: center;
-    align-items: center;
-    margin-top: 8rem;
-    margin-bottom: 0;
-  }
-  .nav-buttons .button-inverse {
-    margin-bottom: 1rem;
   }
 }
 
@@ -9906,7 +9911,7 @@ p {
   backface-visibility: hidden;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .winery-image {
     width: 15rem;
   }
@@ -9944,7 +9949,7 @@ p {
   padding-top: 8.5rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .image-text {
     padding-top: 4.5rem;
   }
@@ -9963,7 +9968,7 @@ p {
   margin: 5px 0px 20px 0px;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .ourstory h1 {
     font-size: 1.5rem;
     width: 20rem;
@@ -9981,9 +9986,15 @@ p {
   margin: 0 1rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .ourstory p {
     width: 35rem;
+  }
+}
+
+@media (max-width: 650px) {
+  .ourstory p {
+    width: 28rem;
   }
 }
 
@@ -10001,7 +10012,7 @@ p {
   background-color: #f7f7f7;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .vineyards .heading-box h1 {
     font-size: 1.5rem;
     width: 30rem;
@@ -10031,9 +10042,10 @@ p {
   justify-content: center;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .vineyard-images {
     display: grid;
+    justify-items: center;
     grid-template-columns: 25rem;
   }
 }
@@ -10049,7 +10061,7 @@ p {
   cursor: pointer;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .vineyard-images img {
     width: 20rem;
   }
@@ -10060,7 +10072,7 @@ p {
   width: 35rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .homevineyard-image {
     width: 25rem;
   }
@@ -10071,7 +10083,7 @@ p {
   width: 35rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .netherwood-vineyard-image {
     width: 25rem;
   }
@@ -10084,7 +10096,7 @@ p {
   background: linear-gradient(180deg, #2b2b2b 0%, #212121 65%, #141414 100%);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .homeandnetherwood {
     display: block;
   }
@@ -10107,6 +10119,12 @@ p {
   }
 }
 
+@media (max-width: 650px) {
+  .homeandnetherwood p {
+    width: 28rem;
+  }
+}
+
 .homeandnetherwood p {
   text-align: center;
   color: white;
@@ -10126,7 +10144,7 @@ p {
   background-color: #f7f7f7;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .damsteep {
     display: block;
   }
@@ -10158,7 +10176,7 @@ p {
   border-bottom: 1.8px solid #161616;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .damsteep .desktop-view {
     display: none;
   }
@@ -10179,6 +10197,15 @@ p {
     width: 40rem;
     margin-bottom: 3rem;
   }
+}
+
+@media (max-width: 768px) and (max-width: 650px) {
+  .damsteep .tablet-view p {
+    width: 28rem;
+  }
+}
+
+@media (max-width: 768px) {
   .damsteep .tablet-view img {
     margin: 0 0 3rem;
     border: 1px solid #b4b4b4;
@@ -10570,7 +10597,7 @@ template {
   width: 12rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .restaurantmain h2 {
     font-size: 2rem;
   }
@@ -10592,7 +10619,7 @@ template {
   color: white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .current-releases h2 {
     font-size: 2rem;
   }
@@ -10629,7 +10656,7 @@ template {
   border-bottom: 1.8px solid white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .current-releases .centertext .line {
     width: 15rem;
   }
@@ -10644,7 +10671,7 @@ template {
   color: green;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .current-releases .bottom {
     padding: 0 0 3rem;
   }
@@ -10687,7 +10714,7 @@ template {
   border-left: 3px dashed white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .right-column-wines {
     border-left: none;
   }
@@ -10844,7 +10871,7 @@ template {
   background: linear-gradient(180deg, #2b2b2b 0%, #212121 65%, #141414 100%);
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .kumiko {
     display: block;
   }
@@ -10854,7 +10881,7 @@ template {
   color: white;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .kumiko h2 {
     margin-top: 3rem;
     font-size: 2rem;
@@ -10874,7 +10901,7 @@ template {
   margin-top: 2rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .kumiko .left {
     margin: 0;
   }
@@ -10886,6 +10913,12 @@ template {
   }
   .kumiko p {
     width: 40rem;
+  }
+}
+
+@media (max-width: 768px) and (max-width: 650px) {
+  .kumiko p {
+    width: 28rem;
   }
 }
 
@@ -10906,7 +10939,7 @@ template {
   display: none;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .bnb .desktop-view {
     display: none;
   }
@@ -10931,11 +10964,17 @@ template {
   }
 }
 
+@media (max-width: 768px) and (max-width: 650px) {
+  .bnb p {
+    width: 28rem;
+  }
+}
+
 .stay-bnb {
   width: 30rem;
 }
 
-@media (max-width: 1024px) {
+@media (max-width: 768px) {
   .stay-bnb {
     width: 25rem;
   }
