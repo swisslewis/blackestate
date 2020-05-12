@@ -9692,7 +9692,7 @@ h5 {
 }
 
 p {
-  font-family: 'Playfair Display', serif;
+  font-family: 'Open Sans', sans-serif;
   line-height: 30px;
   font-size: 15px;
   padding-top: 40px;
@@ -9704,7 +9704,7 @@ p {
   background-color: white;
   color: black;
   border-radius: 1rem;
-  border: 2px solid black;
+  border: 1.5px solid black;
   height: 2rem;
   width: 8rem;
 }
@@ -9718,7 +9718,7 @@ p {
   font-family: "Open Sans", sans-serif;
   background-color: black;
   color: white;
-  border: 2px solid white;
+  border: 1.5px solid white;
   border-radius: 1rem;
   height: 2rem;
   width: 8rem;
@@ -9865,6 +9865,12 @@ p {
   opacity: 30px;
 }
 
+@media (max-width: 420px) {
+  .collage {
+    padding: 0px;
+  }
+}
+
 @media (max-width: 900px) {
   .collage {
     margin: 0 0 0.3rem;
@@ -9979,6 +9985,9 @@ p {
 }
 
 @media (max-width: 420px) {
+  .ourstory h1 {
+    margin: 0 0 1rem;
+  }
   .ourstory .line {
     width: 20rem !important;
   }
@@ -10024,6 +10033,12 @@ p {
   background-color: #f7f7f7;
 }
 
+@media (max-width: 420px) {
+  .vineyards {
+    padding: 1.5rem 0 0;
+  }
+}
+
 @media (max-width: 900px) {
   .vineyards .heading-box h1 {
     font-size: 1.5rem;
@@ -10060,6 +10075,12 @@ p {
   justify-content: center;
 }
 
+@media (max-width: 420px) {
+  .vineyard-images {
+    margin-bottom: 1rem;
+  }
+}
+
 @media (max-width: 900px) {
   .vineyard-images {
     display: grid;
@@ -10069,7 +10090,7 @@ p {
 }
 
 .vineyard-images img {
-  margin: 30px 10px;
+  margin: 1rem 0.5rem;
   width: 30rem;
   border: 1px solid #383838;
 }
@@ -10156,6 +10177,9 @@ p {
 }
 
 @media (max-width: 420px) {
+  .homeandnetherwood h2 {
+    margin-top: 3rem;
+  }
   .homeandnetherwood p {
     width: 20rem;
   }
@@ -10241,6 +10265,15 @@ p {
     margin-top: 5rem;
     font-size: 2rem;
   }
+}
+
+@media (max-width: 900px) and (max-width: 420px) {
+  .damsteep .tablet-view h2 {
+    margin-top: 3rem;
+  }
+}
+
+@media (max-width: 900px) {
   .damsteep .tablet-view p {
     width: 40rem;
     margin-bottom: 3rem;
@@ -10709,7 +10742,6 @@ template {
   color: white;
   padding-top: 50px;
   text-align: center;
-  font-family: 'Playfair Display', serif;
   font-style: normal;
   line-height: 30px;
   width: 50%;
@@ -11056,6 +11088,12 @@ template {
 @media (max-width: 900px) and (max-width: 420px) {
   .bnb p {
     width: 20rem;
+  }
+}
+
+@media (max-width: 420px) {
+  .bnb h2 {
+    margin-top: 3rem;
   }
 }
 

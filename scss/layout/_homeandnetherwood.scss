@@ -55,6 +55,9 @@
     }
 
     @include mobile {
+        h2 {
+            margin-top: 3rem;
+        }
         p {
             width: 20rem;
         }

@@ -55,6 +55,9 @@
             h2 {
                 margin-top: 5rem;
                 font-size: 2rem;
+                @include mobile {
+                    margin-top: 3rem;
+                }
             }
 
             p {
