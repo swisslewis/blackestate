@@ -12,6 +12,9 @@
     .line {
         width: 25rem;
         border-bottom: 1.8px solid rgb(255, 255, 255);
+        @include mobile {
+            width: 20rem;
+        }
     }
     p {
         color: white;
@@ -35,6 +38,9 @@
             width: 40rem;
             @include tablet-small {
                 width: 28rem;
+            }
+            @include mobile {
+                width: 20rem;
             }
         }
     }

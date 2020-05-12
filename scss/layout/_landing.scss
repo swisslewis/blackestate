@@ -126,6 +126,12 @@
         }
     }
 
+    @include mobile {
+        .line {
+            width: 20rem !important;
+        }
+    }
+
     p {
         padding-top: 30px;
         text-align: center;
@@ -139,6 +145,10 @@
 
         @include tablet-small {
             width: 28rem;
+        }
+
+        @include mobile {
+            width: 20rem;
         }
     }
 

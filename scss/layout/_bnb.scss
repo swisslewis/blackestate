@@ -11,6 +11,12 @@
         display: none;
     }
 
+    .line {
+        @include mobile {
+            width: 17rem;
+        }
+    }
+
     @include tablet {
         .desktop-view {
             display: none;
@@ -41,6 +47,9 @@
             @include tablet-small {
                 width: 28rem;
             }
+            @include mobile {
+                width: 20rem;
+            }
         }
     }
 }
@@ -49,5 +58,8 @@
     width: 30rem;
     @include tablet {
         width: 25rem;
+    }
+    @include mobile {
+        width: 20rem;
     }
 }

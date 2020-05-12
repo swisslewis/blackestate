@@ -12,6 +12,11 @@
                 width: 30rem;
             }
         }
+        @include mobile {
+            h1 {
+                width: 20rem;
+            }
+        }
     }
 }
 

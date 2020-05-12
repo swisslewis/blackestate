@@ -4,6 +4,9 @@
     @include tablet {
         width: 25rem;
     }
+    @include mobile {
+        width: 20rem;
+    }
 }
 
 .netherwood-vineyard-image {
@@ -11,6 +14,9 @@
     width: 35rem;
     @include tablet {
         width: 25rem;
+    }
+    @include mobile {
+        width: 20rem;
     }
 }
 
@@ -48,6 +54,12 @@
         }
     }
 
+    @include mobile {
+        p {
+            width: 20rem;
+        }
+    }
+
     p {
         text-align: center;
         color: white;
@@ -61,5 +73,8 @@
     .line {
         width: 24rem;
         border-bottom: 1.8px solid rgb(255, 255, 255);
+        @include mobile {
+            width: 20rem;
+        }
     }
 }

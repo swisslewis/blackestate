@@ -29,6 +29,10 @@
     .line {
         width: 400px;
         border-bottom: 1.8px solid rgb(22, 22, 22);
+
+        @include mobile {
+            width: 20rem;
+        }
     }
 
     @include tablet {
@@ -56,20 +60,28 @@
             p {
                 width: 40rem;
                 margin-bottom: 3rem;
+
                 @include tablet-small {
                     width: 28rem;
-            }
-            }
+                }
 
-            img {
-                margin: 0 0 3rem;
-                border: 1px solid rgb(180, 180, 180);
-                width: 25rem;
+                @include mobile {
+                    width: 20rem;
+                }
             }
         }
     }
-}
 
-.damsteep-image {
-    width: 35rem;
+    .damsteep-image {
+        border: 1px solid rgb(180, 180, 180);
+        width: 35rem;
+
+        @include tablet {
+            margin: 0 0 3rem;
+        }
+
+        @include mobile {
+            width: 20rem;
+        }
+    }
 }
