@@ -9750,10 +9750,7 @@ p {
   z-index: 10;
   padding: 0px;
   width: 100%;
-  background-image: url(../../images/grapes.jpg);
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
+  background-color: #141414;
   padding: 0px;
 }
 
@@ -9765,7 +9762,7 @@ p {
 .header .nav-links {
   display: flex;
   justify-content: center;
-  background-color: #e6e6e6;
+  background-color: #424242;
   padding: 0.5rem 0;
 }
 
@@ -9784,7 +9781,7 @@ p {
 
 .header .nav-links ul li {
   margin: 0px 1.5rem;
-  color: #023607;
+  color: white;
   font-family: 'Open Sans', serif;
   font-weight: 600;
   font-size: 1rem;
@@ -9797,7 +9794,7 @@ p {
 }
 
 .header .nav-links ul a {
-  color: #023607;
+  color: white;
 }
 
 .header .nav-links ul a:hover {
@@ -9819,7 +9816,7 @@ p {
   text-align: center;
   position: absolute;
   left: 87%;
-  top: 38%;
+  top: 30%;
   margin: 0;
   padding: 0;
 }
@@ -9830,7 +9827,7 @@ p {
 }
 
 .header .social-media-icons a {
-  color: #252525;
+  color: white;
 }
 
 .header .social-media-icons a:hover {
