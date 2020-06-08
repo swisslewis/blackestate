@@ -24,6 +24,14 @@
         padding-top: 0.5rem;
     }
 
+    @include tablet-small {
+        margin: 0 0 0.3rem;
+        padding-top: 0.5rem;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        grid-template-rows: 50% 50%;
+    }
+
     img {
         margin: 0.5rem;
     }
@@ -38,6 +46,15 @@
         align-items: center;
         margin: 8rem 1rem 0 1rem;
 
+        a {
+            color: white;
+            margin: 0 2rem 1rem 0;
+        }
+
+        a:hover {
+            color: rgb(39, 158, 34);
+        }
+
         .button-inverse {
             margin: 0 1rem 1rem;
         }
@@ -45,7 +62,7 @@
 
     @include tablet-small {
         display: grid;
-        grid-template-columns: 10rem 10rem;
+        grid-template-columns: 10rem;
         justify-items: center;
     }
 }
